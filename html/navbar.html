@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        height: 70px;
+        background-color: green;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .i1 {
+        padding: 25px;
+        font-size: 20px;
+      }
+      .i2 {
+        font-size: 30px;
+      }
+      .youtubeimg {
+        width: 150px;
+        height: 70px !important;
+      }
+
+      form.example input[type="text"] {
+        padding: 20px;
+        float: left;
+        width: 600px;
+        background: #f1f1f1;
+      }
+      .btn {
+        width: 50px;
+      }
+      .example {
+        margin-left: 40px;
+        margin-top: 5px;
+        height: 50px !important;
+      }
+      .sidebar {
+        width: 80px;
+        height: 800px;
+        background-color: red;
+      }
+      .container2 {
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: pink;
+      }
+      .mainDiv {
+        display: flex;
+        flex-wrap: wrap;
+        width: 94%;
+        height: 800px;
+        justify-content: space-evenly;
+
+        margin-top: 5px;
+      }
+
+      .div1 {
+        height: 300px;
+        width: 400px;
+        background-color: red;
+      }
+      .div2 {
+        height: 300px;
+        width: 400px;
+        background-color: yellow;
+      }
+      .div3 {
+        height: 300px;
+        width: 400px;
+        background-color: grey;
+      }
+      .imgdiv {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px;
+        width: 390px;
+        height: 220px;
+        background-color: pink;
+      }
+      .imgdiv img {
+        width: 100%;
+        height: 100%;
+      }
+      .textDiv {
+        margin: 5px;
+        width: 390px;
+        height: 50px;
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <i class="fa-solid fa-bars i1"></i>
+      <img src="youtubeimg.png" class="youtubeimg" />
+      <form class="example" action="">
+        <input type="text" placeholder="search.." name="search" />
+        <button type="submit" style="padding: 16px; font-size: 19px">
+          <i class="fa fa-search btn"></i>
+        </button>
+      </form>
+    </div>
+
+    <div class="container2">
+      <div class="sidebar">
+        <i class="fa-solid fa-home i1"></i>
+        <p style="text-align: center">Home</p>
+        <br />
+        <i class="fa-solid fa-compass i1"></i>
+        <p style="text-align: center">Explore</p>
+        <p style="text-align: center"></p>
+        <i class="fa-solid fa-bars i1"></i>
+        <p style="text-align: center">Explore</p>
+        <i class="fa-solid fa-bars i1"></i>
+        <p style="text-align: center">subscription</p>
+        <i class="fa-solid fa-bars i1"></i>
+        <i class="fa-solid fa-bars i1"></i>
+        <i class="fa-solid fa-bars i1"></i>
+        <i class="fa-solid fa-bars i1"></i>
+        <i class="fa-solid fa-bars i1"></i>
+      </div>
+
+      <div class="mainDiv">
+        <div class="div1">
+          <div class="imgdiv">
+            <img src="/images/view.jpg" alt="" />
+          </div>
+          <div class="textDiv"></div>
+        </div>
+        <div class="div2">
+          <div class="imgdiv">
+            <img src="/images/view.jpg" alt="" />
+          </div>
+          <div class="textDiv"></div>
+        </div>
+        <div class="div3">
+          <div class="imgdiv">
+            <img src="/images/view.jpg" alt="" />
+          </div>
+          <div class="textDiv"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.div1{
+    background-color: rgb(245, 0,0);
+    height: 200px;
+    width: 700px;
+    padding: 10px;
+    margin: 10px;
+border: solid;
+ text-align: center;
+ text-size-adjust: 20px;
+ font-style: italic;
+ color: azure;
+}
+.div2{
+    background-color: rgb(100, 0, 0);
+    height: 800px;
+    overflow: hidden;
+    padding: 20px;
+    margin: 20px;
+}
